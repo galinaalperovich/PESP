@@ -1,3 +1,5 @@
+from file_reader import one_line_dict, read_all_lines
+
 __author__ = 'galya'
 
 #!/usr/bin/python
@@ -8,6 +10,9 @@ from gurobipy import *
 #
 # PESP basic version page 20, Models for Periodic Timetabeling
 #
+
+# one_line_dict('/Users/galya/PycharmProjects/PESPtask/Lines/0102111..txt')
+
 
 try:
 
