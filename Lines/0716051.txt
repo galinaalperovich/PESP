@@ -1,0 +1,15 @@
+TypeOfTrain#Os
+TrainLineNumber#0716051
+Period#120
+Provider#CD
+#
+Mladá Boleslav město##16:05#0#
+Mladá Boleslav hl.n.#16:11#16:12#3
+Nepřevázka##16:19#9
+Dobrovice#16:22#16:27#12
+Voděrady##16:30#14
+Luštěnice##16:33#16
+Čachovice##16:39#21
+Všejany##16:42#23
+Veleliby#16:48#16:49#30
+Nymburk hl.n.#16:53##33

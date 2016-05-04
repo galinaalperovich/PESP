@@ -1,0 +1,37 @@
+TypeOfTrain#Os
+TrainLineNumber#0102111
+Period#60
+Provider#CD
+#
+Praha Masarykovo n.##11:15#0
+Praha-Libeň#11:23#11:24#5
+Praha-Kyje##11:29#9
+Praha-Dolní Počernice##11:32#11
+Praha-Běchovice#11:34#11:35#13
+Praha-Klánovice##11:39#18
+Úvaly##11:43#23
+Tuklaty##11:46#27
+Rostoklaty##11:49#29
+Český Brod#11:53#11:54#34
+Klučov##11:57#38
+Poříčany#12:00#12:05#40
+Tatce##12:08#45
+Pečky#12:11#12:12#48
+Cerhenice##12:15#52
+Velim##12:19#55
+Nová Ves u Kolína##12:21#57
+Kolín zast.##12:25#61
+Kolín#12:28#12:36#62
+Kolín dílny##12:38#64
+Starý Kolín##12:42#69
+Záboří n.Labem##12:46#74
+Týnec n.Labem##12:48#75 
+Kojice##12:51#78
+Chvaletice##12:53#79
+Řečany n.Labem##12:57#84
+Lhota p.Přeloučí##13:00#87
+Přelouč#13:04#13:05#91
+Valy u Přelouče##13:07#94
+Pardubice-Opočínek##13:11#98
+Pardubice-Svítkov##13:14#102
+Pardubice hl.n.#13:18##104

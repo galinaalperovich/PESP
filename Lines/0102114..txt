@@ -1,0 +1,37 @@
+TypeOfTrain#Os
+TrainLineNumber#0102114
+Period#60
+Provider#CD
+#
+Pardubice hl.n.##12:39#0
+Pardubice-Svítkov##12:41#2
+Pardubice-Opočínek##12:45#6
+Valy u Přelouče##12:48#10
+Přelouč#12:51#12:52#13
+Lhota p.Přeloučí##12:55#17
+Řečany n.Labem##12:59#20
+Chvaletice##13:02#25
+Kojice##13:04#26
+Týnec n.Labem##13:08#29
+Záboří n.Labem##13:10#30
+Starý Kolín##13:13#35
+Kolín dílny##13:17#40
+Kolín#13:21#13:35#42
+Kolín zast.##13:37#43
+Nová Ves u Kolína##13:40#47
+Velim#13:43#13:44#49
+Cerhenice##13:46#52
+Pečky#13:50#13:59#56
+Tatce##14:01#59
+Poříčany#14:06#14:11#64
+Klučov##14:13#66
+Český Brod#14:17#14:18#70
+Rostoklaty##14:22#75
+Tuklaty##14:25#77
+Úvaly#14:28#14:29#81
+Praha-Klánovice##14:32#86
+Praha-Běchovice#14:36#14:37#91
+Praha-Dolní Počernice##14:39#93
+Praha-Kyje##14:42#95
+Praha-Libeň##14:48#99
+Praha Masarykovo n.#14:57##104

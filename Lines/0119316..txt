@@ -1,0 +1,24 @@
+TypeOfTrain#Os
+TrainLineNumber#0119316
+Period#60
+Provider#CD
+#
+Kolín##16:14#0
+Kolín zast.##16:16#1
+Nová Ves u Kolína##16:19#5
+Velim#16:22#16:23#7
+Cerhenice##16:25#10
+Pečky#16:29#16:30#14
+Tatce##16:32#17
+Poříčany#16:37#16:38#22
+Klučov##16:40#24
+Český Brod#16:44#16:48#28
+Rostoklaty##16:52#33
+Tuklaty##16:55#35
+Úvaly#16:58#16:59#39
+Praha-Klánovice##17:02#44
+Praha-Běchovice#17:06#17:07#49
+Praha-Dolní Počernice##17:09#51
+Praha-Kyje##17:12#53
+Praha-Libeň##17:18#57
+Praha Masarykovo n.#17:27##62

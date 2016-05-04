@@ -1,0 +1,12 @@
+TypeOfTrain#Os
+TrainLineNumber#2319445
+Period#60
+Provider#CD
+#
+Praha Masarykovo n.##14:21#0
+Praha-Vysočany#14:28#14:29#6
+Praha-Hor.Počernice##14:37#15
+Zeleneč#14:41#14:42#19
+Čelákovice#14:48#14:49#27
+Čelákovice-Jiřina#14:51#14:52#29
+Lysá n.Labem#14:58##35

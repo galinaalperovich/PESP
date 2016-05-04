@@ -1,0 +1,12 @@
+TypeOfTrain#Os
+TrainLineNumber#0726416
+Period#120
+Provider#CD
+#
+Lysá n.Labem##16:18#0
+Lysá n.Labem-Dvorce##16:21#3 
+Otradovice#16:24#16:25#7
+Stará Boleslav##16:28#11 
+Dřísy#16:32#16:33#16
+Ovčáry##16:35#18
+Všetaty#16:40##23

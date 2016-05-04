@@ -1,0 +1,14 @@
+TypeOfTrain#Os
+TrainLineNumber#0709565
+Period#120
+Provider#CD
+#
+Turnov##9:24#0
+Příšovice##9:29#4
+Loukov u Mn.Hradiště##9:33#7
+Březina n.Jizerou##9:36#9
+Mnichovo Hradiště#9:42#9:43#14
+Bakov n.Jizerou m.#9:48#9:49#20
+Bakov n.Jizerou#9:51#9:52#21
+Mladá Boleslav-Debř#9:57#9:58#25
+Mladá Boleslav hl.n.#10:04##30

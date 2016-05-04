@@ -1,0 +1,25 @@
+TypeOfTrain#Os
+TrainLineNumber#2312231
+Period#60
+Provider#CD
+#
+Praha Masarykovo n.##16:51#0
+Praha-Vysočany#16:58#16:59#6
+Praha-Hor.Počernice##17:07#15
+Zeleneč#17:11#17:12#19
+Mstětice##17:14#21
+Čelákovice#17:18#17:19#27
+Čelákovice-Jiřina#17:21#17:22#29
+Lysá n.Labem#17:28#17:30#35
+Ostrá##17:34#38
+Stratov##17:36#40
+Kostomlaty n.Labem##17:41#44
+Kamenné Zboží##17:45#47
+Nymburk hl.n.#17:49#18:01#50
+Velké Zboží##18:06#55
+Poděbrady#18:09#18:10#57
+Libice n.Cidlinou##18:14#62
+Velký Osek#18:17#18:18#65
+Veltruby##18:21#68
+Kolín-Zálabí##18:25#72
+Kolín#18:28##73

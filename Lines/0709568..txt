@@ -1,0 +1,14 @@
+TypeOfTrain#Os
+TrainLineNumber#0709568
+Period#120
+Provider#CD
+#
+Mladá Boleslav hl.n.##9:51#0
+Mladá Boleslav-Debř#9:57#9:58#5
+Bakov n.Jizerou#10:03#10:04#9
+Bakov n.Jizerou m.#10:06#10:07#10
+Mnichovo Hradiště#10:13#10:14#16
+Březina n.Jizerou##10:20#21
+Loukov u Mn.Hradiště#10:22#10:23#23 
+Příšovice#10:26#10:27#26
+Turnov#10:33##30

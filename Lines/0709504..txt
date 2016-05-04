@@ -1,0 +1,26 @@
+TypeOfTrain#Os
+TrainLineNumber#0709504
+Period#120
+Provider#CD
+#
+Praha-Vršovice##7:40#0
+Praha hl.n.#7:44#7:47#3
+Praha-Vysočany#7:54#7:56#9
+Praha-Satalice##8:04#17
+Praha-Kbely##8:07#19
+Praha-Čakovice#8:11#8:14#22
+Hovorčovice##8:18#26
+Měšice u Prahy##8:22#29
+Zlonín##8:24#31
+Kojetice u Prahy##8:27#33
+Neratovice#8:31#8:32#37
+Tišice##8:35#40
+Všetaty#8:39#8:43#43
+Byšice#8:46#8:47#46
+Kojovice##8:50#50
+Košátky##8:52#52
+Kropáčova Vrutice#8:56#8:59#54
+Zdětín u Chotětova##9:05#60
+Chotětov#9:09#9:10#63
+Krnsko##9:16#71
+Mladá Boleslav hl.n.#9:21##75
