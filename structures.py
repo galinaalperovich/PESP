@@ -4,23 +4,23 @@ __author__ = 'galya'
 
 
 class Vertex(object):
-    def __init__(self, activity, station_name, direction):
-        self.direction = direction
+    def __init__(self, activity, station_name, line):
+        self.line = line
         self.activity = activity
         self.station_name = station_name
 
     def __hash__(self):
-        return hash((self.activity, self.station_name, self.direction))
+        return hash((self.activity, self.station_name, self.line))
 
     def __eq__(self, other):
-        return (self.activity, self.station_name, self.direction) == (
-        other.activity, other.station_name, self.direction)
+        return (self.activity, self.station_name, self.line) == (
+            other.activity, other.station_name, other.line)
 
     def __ne__(self, other):
         return not (self == other)
 
     def __str__(self):
-        return "(%s,%s,%s)" % (self.direction, self.activity, self.station_name)
+        return "(%s,%s,%s)" % (self.line, self.activity, self.station_name)
 
 
 class Edge(object):
