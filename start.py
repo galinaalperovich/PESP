@@ -1,8 +1,9 @@
 import os
-from model_generator import generate_model
+from pesp_instance import PESPInstance
 from structures import *
 
 __author__ = 'jetbrains'
+
 
 def read_all_lines():
     BASE = "Lines/%s"
@@ -14,65 +15,33 @@ def read_all_lines():
 
     return all_lines_map
 
+
 ALL_LINES_DATA = read_all_lines()
 GRAPHS = []
 
 # ========================
 # SET PARAMETERS
 # ========================
-# time frequency
-T = 10
+T = 10  # time frequency
 
-# time between stations
-ub_path = 4
-lb_path = 2
+time_bounds = {"ub_path": 4, "lb_path": 2,  # time between stations
+               "ub_station": 1, "lb_station": 0,  # time on station
+               "ub_lines": 3, "lb_lines": 7}  # time between station of different lines
 
-#time on station
-ub_station = 1
-lb_station = 0
+pesp_instance = PESPInstance(ALL_LINES_DATA, T, time_bounds)
 
-#time between station of differnet lines
-ub_lines = 3
-lb_lines = 7
+# =============
+# B&B method
+# =============
 
-for line, line_val in ALL_LINES_DATA.iteritems():
-    first = True
-    prev_station = None
-    next_station = None  # we have ordered files, we will process it as one
-    prev_vertex2 = None
-    read_first_station = True
-    GRAPH = LineGraph()
-    line_data = ALL_LINES_DATA[line]
-    for station_name in line_data:
-        if first is True:
-            first = False
-            prev_station = station_name
+gen_pesp_instance = pesp_instance.get_instance_for_gen()
+bb_model = pesp_instance.generate_bb_model()
 
-        else:
-            next_station = station_name
-            # generate two vertexes and one edge
-            vertex1 = Vertex(Activity.DEPARTURE, prev_station, line)
-            vertex2 = Vertex(Activity.ARRIVAL, next_station, line)
 
-            edge = Edge(vertex1, vertex2, lb_path, ub_path)  # to test only
-            GRAPH.add_vertex(vertex1)
-            GRAPH.add_vertex(vertex2)
-            GRAPH.add_edge(edge)
-            prev_station = next_station
-
-            if prev_vertex2 is None:
-                prev_vertex2 = vertex2
-                continue
-            else:
-                prev_edge = Edge(prev_vertex2, vertex1, lb_station, ub_station)
-                GRAPH.add_edge(prev_edge)
-                prev_vertex2 = vertex2
-
-    GRAPHS.append(GRAPH)
-pass
-
-model = generate_model(GRAPHS, T, lb_lines, ub_lines)
-
-for v in model.getVars():
+for v in bb_model.getVars():
     print('%s %g' % (v.varName, v.x))
-print('Obj: %g' % model.objVal)
+print('Obj: %g' % bb_model.objVal)
+
+# ===================
+# Genetic algorithm
+# ===================

@@ -41,9 +41,9 @@ class Edge(object):
 
 
 class LineGraph(object):
-    def __init__(self, graph_dict=OrderedDict()):
+    def __init__(self):
         """ initializes a graph object """
-        self._graph_dict = graph_dict
+        self._graph_dict = OrderedDict()
 
     def vertices(self):
         """ returns the vertices of a graph """
