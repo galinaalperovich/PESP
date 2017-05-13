@@ -1,10 +1,9 @@
 <h2>Branch and Bound and Genetic algorithm for Periodic Timetabling problem</h2>
 
-Alperovich Galina
-
-CVUT FEL, Open Informatics, Artificial Intelligence
-
-May, 2016
+Alperovich Galina<br />
+CVUT FEL, Open Informatics, Artificial Intelligence<br />
+Combinatorial optimization final project 
+May, 2016<br />
 
 <h4>Abstract</h4>
 
@@ -13,17 +12,12 @@ Mathematical optimization in public transport area is becoming a very popular ta
 
 <h4>Reference</h4>
 
-[1] PERIODIC TIMETABLE GENERATION
-
-Seminar on Algorithms and Models for Railway Optimization
-
-University of Constance
-
-Carole Giesemann SS 2002
+[1] PERIODIC TIMETABLE GENERATION<br />
+Seminar on Algorithms and Models for Railway Optimization<br />
+University of Constance<br />
+Carole Giesemann SS 2002<br />
 
 
-[2] MODELS FOR PERIODIC TIMETABLING
-
-Mathias Kinder
-
-Diplomarbeit bei Prof. Dr. M. Gro ̈tschel
+[2] MODELS FOR PERIODIC TIMETABLING<br />
+Mathias Kinder<br />
+Diplomarbeit bei Prof. Dr. M. Gro ̈tschel<br />
