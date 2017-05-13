@@ -2,7 +2,7 @@
 
 Alperovich Galina<br />
 CVUT FEL, Open Informatics, Artificial Intelligence<br />
-Combinatorial optimization final project 
+Combinatorial optimization final project<br />
 May, 2016<br />
 
 <h4>Abstract</h4>
